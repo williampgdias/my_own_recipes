@@ -7,6 +7,25 @@
     font-family: 'Libre Baskerville', serif;
 }
 
+.breakfast-div,
+.lunch-div,
+.dinner-div {
+    padding-top: 100px;
+}
+
+.breakfast-div,
+.dinner-div {
+    background-color: #000000;
+    color: #fff;
+}
+
+.title {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3rem;
+    padding-bottom: 30px;
+}
+
 /* NavBar Starts */
 .navbar {
     background-color: #f8f9fa !important;
@@ -51,6 +70,7 @@
 /* Intro Starts */
 .intro-img img {
     max-width: 450px;
+    margin-bottom: 50px;
 }
 
 #intro-div {
@@ -65,6 +85,16 @@
     padding-right: 1.3rem;
 }
 /* Intro Ends */
+
+/* Breakfast Starts */
+
+/* Breakfast Ends */
+
+/* Lunch Starts */
+/* Lunch Ends */
+
+/* Dinner Starts */
+/* Dinner Ends */
 
 /* RESPONSIVE */
 @media screen and (max-width: 1200px) {
