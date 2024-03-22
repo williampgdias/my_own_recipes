@@ -38,6 +38,8 @@
 .btn-outline-success {
     color: #000;
     border-color: #000;
+    --bs-btn-active-border-color: #aeaeae;
+    --bs-btn-active-bg: #aeaeae;
 }
 
 .btn-outline-success:hover {
