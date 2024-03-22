@@ -7,25 +7,6 @@
     font-family: 'Libre Baskerville', serif;
 }
 
-.breakfast-div,
-.lunch-div,
-.dinner-div {
-    padding-top: 100px;
-}
-
-.breakfast-div,
-.dinner-div {
-    background-color: #000000;
-    color: #fff;
-}
-
-.title {
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 3rem;
-    padding-bottom: 30px;
-}
-
 /* NavBar Starts */
 .navbar {
     background-color: #f8f9fa !important;
@@ -85,6 +66,41 @@
     padding-right: 1.3rem;
 }
 /* Intro Ends */
+
+/* Cards Default Starts */
+.breakfast-div,
+.lunch-div,
+.dinner-div {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.breakfast-div,
+.dinner-div {
+    background-color: #000000;
+    color: #fff;
+}
+
+.title {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3rem;
+    padding-bottom: 30px;
+}
+
+.recipes-wrapper {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card-title {
+    font-size: 1.2rem;
+}
+.card-text {
+    font-size: 0.85rem;
+}
+/* Cards Default Ends */
 
 /* Breakfast Starts */
 
