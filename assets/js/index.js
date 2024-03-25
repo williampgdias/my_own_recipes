@@ -16,7 +16,7 @@ darkModeSetting.addEventListener('click', function (e) {
         changeTitle.style.color = 'black';
 
         // Change Icon style
-        changeIcon.style.borderColor = 'black';
+        changeIcon.style.border = '1px solid black';
         changeIcon.style.color = 'black';
 
         // Change Icon URL
@@ -27,7 +27,7 @@ darkModeSetting.addEventListener('click', function (e) {
         changeTitle.style.color = 'white';
 
         // Change Icon style
-        changeIcon.style.borderColor = 'white';
+        changeIcon.style.border = '1px solid white';
         changeIcon.style.color = 'white';
 
         // Change Icon URL
