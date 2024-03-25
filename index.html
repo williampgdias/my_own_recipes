@@ -49,6 +49,11 @@
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
+
+                    <!-- Dark Mode -->
+                    <a id="darkModeSetting">
+                        <i class="fa-solid fa-moon change-icon"></i>
+                    </a>
                 </div>
             </div>
         </nav>
@@ -94,24 +99,30 @@
     <!-- MAIN SECTION STARTS -->
     <main class="main-content">
         <!-- BREAKFAST SECTION STARTS -->
+
         <section id="breakfast" class="breakfast-div">
             <div class="container-lg">
-                <h1 class="title">breakfast</h1>
-                <a id="darkModeSetting">
-                    <i class="fa-solid fa-sun change-icon"></i>
-                </a>
-                <!-- <button><i class="fa-regular fa-sun"></i></button> -->
-                <p>
-                    Rise and shine with our delicious breakfast creations! Start your day off right with our homemade
-                    breakfast recipes that are sure to fuel your morning with flavor and energy. From fluffy pancakes
-                    dripping with syrup to crispy bacon and eggs cooked just the way you like them, our breakfast
-                    options
-                    cater to every craving and dietary preference. Whether you're in the mood for a hearty feast or a
-                    light
-                    and refreshing start, our collection of breakfast delights has something for everyone. Join us at
-                    the
-                    breakfast table and let's make mornings memorable, one delicious bite at a time!
-                </p>
+                <!-- BREAKFAST INTRO STARTS -->
+                <div class="breakfast-intro">
+                    <h1 class="title">breakfast</h1>
+
+                    <p>
+                        Rise and shine with our delicious breakfast creations! Start your day off right with our
+                        homemade
+                        breakfast recipes that are sure to fuel your morning with flavor and energy. From fluffy
+                        pancakes
+                        dripping with syrup to crispy bacon and eggs cooked just the way you like them, our breakfast
+                        options
+                        cater to every craving and dietary preference. Whether you're in the mood for a hearty feast or
+                        a
+                        light
+                        and refreshing start, our collection of breakfast delights has something for everyone. Join us
+                        at
+                        the
+                        breakfast table and let's make mornings memorable, one delicious bite at a time!
+                    </p>
+                </div>
+                <!-- BREAKFAST INTRO ENDS -->
 
                 <!-- RECIPE CARDS STARTS -->
                 <div class="recipes-wrapper">
@@ -125,7 +136,8 @@
                                 <h5 class="card-title">Fluffy Pancakes</h5>
                                 <p class="card-text">Dive into fluffy pancake bliss with our heavenly creation!</p>
                                 <!-- Button trigger modal -->
-                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pancakeModal">
+                                <button class="btn btn-outline-success" data-bs-toggle="modal"
+                                    data-bs-target="#pancakeModal">
                                     Check the recipe
                                 </button>
 
@@ -147,66 +159,95 @@
                                                     <li>1 cup all-purpose flour</li>
                                                     <li>2 tablespoons granulated sugar</li>
                                                     <li>1 teaspoon baking powder</li>
-                                                    <li>1/2 teaspoon baking soda</li>
-                                                    <li>1/4 teaspoon salt</li>
-                                                    <li>1 cup buttermilk (or 1 cup milk mixed with 1 tablespoon lemon
-                                                        juice
-                                                        or
-                                                        vinegar, let sit for 5 minutes)</li>
+                                                    <li>1/2 teaspoon salt</li>
                                                     <li>1 large egg</li>
-                                                    <li>2 tablespoons unsalted butter, melted</li>
-                                                    <li>1 teaspoon vanilla extract</li>
-                                                    <li>Butter or oil for cooking</li>
-                                                    <li>Fresh fruits (such as berries) for topping</li>
-                                                    <li>Maple syrup or honey for serving</li>
+                                                    <li>3/4 cup milk</li>
+                                                    <li>2 tablespoons melted butter or vegetable oil</li>
+                                                    <li>Additional butter or oil for cooking</li>
                                                 </ul>
 
                                                 <!-- INSTRUCTIONS -->
                                                 <p>Instructions:</p>
                                                 <ol class="list-instructions">
                                                     <li>
-                                                        In a large mixing bowl, whisk together the flour, sugar, baking
-                                                        powder,
-                                                        baking soda, and salt.
+                                                        <b>Mix Dry Ingredients:</b>
+                                                        <ul>
+                                                            <li>
+                                                                In a large mixing bowl, whisk together the flour, sugar,
+                                                                baking powder, and salt until well combined.
+                                                            </li>
+                                                        </ul>
                                                     </li>
                                                     <li>
-                                                        In a separate bowl, whisk together the buttermilk, egg, melted
-                                                        butter,
-                                                        and vanilla extract until well combined.
+                                                        <b>Prepare Wet Ingredients:</b>
+                                                        <ul>
+                                                            <li>
+                                                                In a separate bowl, whisk the egg until slightly beaten.
+                                                                Then add the milk, melted butter or oil, and vanilla
+                                                                extract (if using). Mix until everything is well
+                                                                combined.
+                                                            </li>
+                                                        </ul>
                                                     </li>
                                                     <li>
-                                                        Pour the wet ingredients into the dry ingredients and gently
-                                                        whisk
-                                                        until
-                                                        just combined. Be careful not to overmix; a few lumps are okay.
+                                                        <b>Combine Wet and Dry Ingredients:</b>
+                                                        <ul>
+                                                            <li>
+                                                                Pour the wet ingredients into the dry ingredients and
+                                                                stir until just combined. It's okay if the batter is
+                                                                slightly lumpy. Be careful not to overmix, as this can
+                                                                result in tough pancakes.
+                                                            </li>
+                                                        </ul>
                                                     </li>
                                                     <li>
-                                                        Heat a skillet or griddle over medium heat and lightly grease
-                                                        with
-                                                        butter or oil.
+                                                        <b>Preheat Griddle or Pan:</b>
+                                                        <ul>
+                                                            <li>
+                                                                Heat a non-stick skillet or griddle over medium heat. If
+                                                                using a skillet, add a small amount of butter or oil to
+                                                                coat the surface.
+                                                            </li>
+                                                        </ul>
                                                     </li>
                                                     <li>
-                                                        Pour about 1/4 cup of batter onto the skillet for each pancake.
-                                                        Cook
-                                                        until bubbles form on the surface of the pancake and the edges
-                                                        look
-                                                        set,
-                                                        about 2-3 minutes.
+                                                        <b>Cook Pancakes:</b>
+                                                        <ul>
+                                                            <li>
+                                                                Once the skillet or griddle is hot, pour about 1/4 cup
+                                                                of batter onto the cooking surface for each pancake. Use
+                                                                a spoon or ladle to spread the batter into a round shape
+                                                                if needed.
+                                                            </li>
+                                                            <li>
+                                                                Cook the pancakes for 2-3 minutes, or until bubbles form
+                                                                on the surface and the edges begin to look set.
+                                                            </li>
+                                                        </ul>
                                                     </li>
                                                     <li>
-                                                        Flip the pancakes and cook for an additional 1-2 minutes, or
-                                                        until
-                                                        golden brown and cooked through.
+                                                        <b>Flip and Cook:</b>
+                                                        <ul>
+                                                            <li>
+                                                                Carefully flip each pancake with a spatula and cook for
+                                                                an additional 1-2 minutes, or until golden brown and
+                                                                cooked through.
+                                                            </li>
+                                                        </ul>
                                                     </li>
                                                     <li>
-                                                        Remove the pancakes from the skillet and serve immediately,
-                                                        topped
-                                                        with
-                                                        fresh fruits and drizzled with maple syrup or honey.
-                                                    </li>
-                                                    <li>
-                                                        Enjoy your fluffy homemade pancakes with a burst of fruity
-                                                        goodness!
+                                                        <b>Serve:</b>
+                                                        <ul>
+                                                            <li>
+                                                                Transfer the cooked pancakes to a plate and repeat with
+                                                                the remaining batter.
+                                                            </li>
+                                                            <li>
+                                                                Serve the pancakes warm with your favorite toppings such
+                                                                as maple syrup, fresh fruit, whipped cream, or chocolate
+                                                                chips.
+                                                            </li>
+                                                        </ul>
                                                     </li>
                                                 </ol>
                                             </div>
@@ -232,7 +273,7 @@
                                 <h5 class="card-title">Scrambled Eggs with Bacon</h5>
                                 <p class="card-text">Embark on a journey of morning delight with our sizzling dish!</p>
                                 <!-- Button trigger modal -->
-                                <button class="btn btn-primary" data-bs-toggle="modal"
+                                <button class="btn btn-outline-success" data-bs-toggle="modal"
                                     data-bs-target="#scrambledEggBaconModal">
                                     Check the recipe
                                 </button>
@@ -257,58 +298,89 @@
                                                     <li>Salt and pepper, to taste</li>
                                                     <li>2 tablespoons milk or cream (optional)</li>
                                                     <li>Chopped chives or parsley for garnish (optional)</li>
+                                                    <li>Butter or cooking oil for frying</li>
                                                 </ul>
 
                                                 <!-- INSTRUCTIONS -->
                                                 <p>Instructions:</p>
                                                 <ol class="list-instructions">
                                                     <li>
-                                                        Heat a skillet over medium heat and add the bacon slices. Cook
-                                                        until
-                                                        crispy, flipping occasionally, for about 6-8 minutes. Remove the
-                                                        bacon
-                                                        from the skillet and place it on a paper towel-lined plate to
-                                                        drain
-                                                        excess grease. Once cooled, chop the bacon into bite-sized
-                                                        pieces.
+                                                        <b>Cook the Bacon:</b>
+                                                        <ul>
+                                                            <li>
+                                                                Heat a skillet over medium heat. Add the bacon slices
+                                                                and cook until they are crispy and browned on both
+                                                                sides, usually about 4-5 minutes per side. Once cooked,
+                                                                transfer the bacon to a plate lined with paper towels to
+                                                                drain excess grease. Once cooled, chop the bacon into
+                                                                small pieces.
+                                                            </li>
+                                                        </ul>
                                                     </li>
                                                     <li>
-                                                        In a mixing bowl, crack the eggs and whisk them together until
-                                                        well
-                                                        beaten. Season with salt and pepper to taste. If desired, you
-                                                        can
-                                                        also
-                                                        add milk or cream to make the scrambled eggs creamier.
+                                                        <b>Prepare the Eggs:</b>
+                                                        <ul>
+                                                            <li>
+                                                                In a mixing bowl, crack the eggs and add the milk or
+                                                                cream (if using). Season with salt and pepper to taste.
+                                                                Whisk the eggs until well combined and frothy.
+                                                            </li>
+                                                        </ul>
                                                     </li>
                                                     <li>
-                                                        Pour the beaten eggs into the skillet where you cooked the
-                                                        bacon.
-                                                        Cook
-                                                        over medium-low heat, stirring gently with a spatula, until the
-                                                        eggs
-                                                        start to set.
+                                                        <b>Cook the Eggs:</b>
+                                                        <ul>
+                                                            <li>
+                                                                In the same skillet used to cook the bacon, reduce the
+                                                                heat to medium-low. Add a little butter or cooking oil
+                                                                to the skillet if needed to prevent sticking.
+                                                            </li>
+                                                            <li>
+                                                                Pour the beaten eggs into the skillet. Let them cook
+                                                                undisturbed for a few seconds until the edges start to
+                                                                set.
+                                                            </li>
+                                                            <li>
+                                                                Using a spatula, gently push the eggs from the edges
+                                                                towards the center of the skillet, allowing the uncooked
+                                                                eggs to flow to the edges. Continue this process until
+                                                                the eggs are mostly set but still slightly runny.
+                                                            </li>
+                                                        </ul>
                                                     </li>
                                                     <li>
-                                                        As the eggs begin to firm up but are still slightly runny, add
-                                                        the
-                                                        chopped bacon pieces to the skillet. Continue to cook, stirring
-                                                        occasionally, until the eggs are fully cooked and scrambled to
-                                                        your
-                                                        desired consistency.
+                                                        <b>Add the Bacon:</b>
+                                                        <ul>
+                                                            <li>
+                                                                Once the eggs are nearly cooked to your desired
+                                                                consistency, add the chopped bacon pieces to the
+                                                                skillet. Gently fold the bacon into the scrambled eggs,
+                                                                ensuring it is evenly distributed.
+                                                            </li>
+                                                        </ul>
                                                     </li>
                                                     <li>
-                                                        Once the eggs are cooked through, remove the skillet from the
-                                                        heat
-                                                        and
-                                                        transfer the scrambled eggs with bacon to a serving plate.
+                                                        <b>Finish Cooking:</b>
+                                                        <ul>
+                                                            <li>
+                                                                Cook the eggs for another minute or so, until they reach
+                                                                your preferred level of doneness. Be careful not to
+                                                                overcook them, as they can become dry.
+                                                            </li>
+                                                        </ul>
                                                     </li>
                                                     <li>
-                                                        Garnish with chopped chives or parsley if desired, and serve
-                                                        hot.
-                                                    </li>
-                                                    <li>
-                                                        Enjoy your delicious Scrambled Eggs with Bacon for a hearty and
-                                                        satisfying breakfast that's sure to please!
+                                                        <b>Serve:</b>
+                                                        <ul>
+                                                            <li>
+                                                                Once the scrambled eggs are cooked to your liking,
+                                                                remove the skillet from the heat. Transfer the scrambled
+                                                                eggs with bacon to serving plates.
+                                                            </li>
+                                                            <li>
+                                                                Garnish with chopped fresh chives or parsley if desired.
+                                                            </li>
+                                                        </ul>
                                                     </li>
                                                 </ol>
                                             </div>
@@ -324,6 +396,233 @@
                         </div>
                     </div>
                     <!-- SCRAMBLED EGGS WITH BACON ENDS -->
+
+                    <!-- FRENCH TOAST STARTS -->
+                    <div class="recipe-cards">
+                        <div class="card" style="width: 18rem; height: 23rem;">
+                            <img src="./assets/img/breakfast-french-toast.jpeg" class="card-img-top"
+                                alt="Picture of fluffy pancake with blueberries, strawberries, banana and honey on the side">
+                            <div class="card-body">
+                                <h5 class="card-title">French Toast</h5>
+                                <p class="card-text">Indulge in a classic breakfast favorite with our delicious French
+                                    Toast recipe.</p>
+                                <!-- Button trigger modal -->
+                                <button class="btn btn-outline-success" data-bs-toggle="modal"
+                                    data-bs-target="#frenchToastModal">
+                                    Check the recipe
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="frenchToastModal" tabindex="-1"
+                                    aria-labelledby="frenchToastModal" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+
+                                                <!-- INGREDIENTS -->
+                                                <p>Ingredients:</p>
+                                                <ul class="list-ingredients">
+                                                    <li>4 slices of bread (preferably slightly stale)</li>
+                                                    <li>2 large eggs</li>
+                                                    <li>1/2 cup milk</li>
+                                                    <li>1 teaspoon vanilla extract</li>
+                                                    <li>1/2 teaspoon ground cinnamon</li>
+                                                    <li>Pinch of salt</li>
+                                                    <li>Butter or oil, for cooking</li>
+                                                    <li>Maple syrup, powdered sugar, or fresh fruit, for serving
+                                                        (optional)</li>
+                                                </ul>
+
+                                                <!-- INSTRUCTIONS -->
+                                                <p>Instructions:</p>
+                                                <ol class="list-instructions">
+                                                    <li>
+                                                        <b>Prepare the Batter:</b>
+                                                        <ul>
+                                                            <li>
+                                                                In a shallow dish, whisk together the eggs, milk,
+                                                                vanilla extract, ground cinnamon, and a pinch of salt
+                                                                until well combined. This is your French toast batter.
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <b>Soak the Bread:</b>
+                                                        <ul>
+                                                            <li>
+                                                                Place the slices of bread, one or two at a time, into
+                                                                the egg mixture, allowing them to soak for about 20-30
+                                                                seconds on each side. Make sure each slice is evenly
+                                                                coated with the batter.
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <b>Cook the French Toast:</b>
+                                                        <ul>
+                                                            <li>
+                                                                Heat a skillet or frying pan over medium heat and add a
+                                                                little butter or oil to coat the surface.
+                                                            </li>
+                                                            <li>
+                                                                Once the pan is hot, carefully transfer the soaked bread
+                                                                slices to the pan. Cook for 2-3 minutes on each side, or
+                                                                until golden brown and cooked through.
+                                                            </li>
+                                                            <li>
+                                                                You may need to adjust the heat to prevent the French
+                                                                toast from
+                                                                burning.
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <b>Serve:</b>
+                                                        <ul>
+                                                            <li>
+                                                                Once cooked, transfer the French toast to serving
+                                                                plates.
+                                                            </li>
+                                                            <li>
+                                                                Serve hot with your choice of toppings such as maple
+                                                                syrup, powdered sugar, fresh fruit, or any other desired
+                                                                toppings.
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                    Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FRENCH TOAST ENDS -->
+
+                    <!-- AVOCADO TOAST STARTS -->
+                    <div class="recipe-cards">
+                        <div class="card" style="width: 18rem; height: 23rem;">
+                            <img src="./assets/img/breakfast-avocado-toast.jpeg" class="card-img-top"
+                                alt="Picture of fluffy pancake with blueberries, strawberries, banana and honey on the side">
+                            <div class="card-body">
+                                <h5 class="card-title">French Toast</h5>
+                                <p class="card-text">Elevate your morning routine with the simplicity and elegance of
+                                    our Avocado Toast recipe.</p>
+                                <!-- Button trigger modal -->
+                                <button class="btn btn-outline-success" data-bs-toggle="modal"
+                                    data-bs-target="#avocadoToastModal">
+                                    Check the recipe
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="avocadoToastModal" tabindex="-1"
+                                    aria-labelledby="avocadoToastModal" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+
+                                                <!-- INGREDIENTS -->
+                                                <p>Ingredients:</p>
+                                                <ul class="list-ingredients">
+                                                    <li>2 slices of bread (sourdough, whole wheat, or your preference)
+                                                    </li>
+                                                    <li>1 ripe avocado</li>
+                                                    <li>1 tablespoon lemon juice (optional)</li>
+                                                    <li>Salt and pepper to taste</li>
+                                                    <li>Optional toppings: sliced tomatoes, poached eggs, crumbled feta
+                                                        cheese, red pepper flakes, or herbs like cilantro or basil</li>
+                                                </ul>
+
+                                                <!-- INSTRUCTIONS -->
+                                                <p>Instructions:</p>
+                                                <ol class="list-instructions">
+                                                    <li>
+                                                        <b>Toast the Bread:</b>
+                                                        <br />
+                                                        <ul>
+                                                            <li>Toast the slices of bread until they are golden brown
+                                                                and crispy to your liking.
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <b>Prepare the Avocado</b>
+                                                        <ul>
+                                                            <li>
+                                                                Cut the avocado in half and remove the pit. Scoop the
+                                                                flesh into a bowl.
+                                                            </li>
+                                                            <li>
+                                                                Mash the avocado with a fork until it reaches your
+                                                                desired consistency. If desired, mix in a tablespoon of
+                                                                lemon juice to prevent browning.
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <b>Season the Avocado:</b>
+                                                        <ul>
+                                                            <li>
+                                                                Season the mashed avocado with salt and pepper to taste.
+                                                                You can also add other seasonings like garlic powder,
+                                                                red pepper flakes, or a squeeze of lime juice for extra
+                                                                flavor.
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <b>Assemble the Avocado Toast:</b>
+                                                        <ul>
+                                                            <li>
+                                                                Spread the mashed avocado evenly onto the toasted bread
+                                                                slices.
+                                                            </li>
+                                                            <li>
+                                                                If desired, top the avocado toast with additional
+                                                                toppings such as sliced tomatoes, poached eggs, crumbled
+                                                                feta cheese, red pepper flakes, or herbs.
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <b>Serve:</b>
+                                                        <ul>
+                                                            <li>
+                                                                Serve the avocado toast immediately while the bread is
+                                                                still warm and crispy.
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                    Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- AVOCADO TOAST ENDS -->
 
                 </div>
                 <!-- RECIPE CARDS ENDS -->
