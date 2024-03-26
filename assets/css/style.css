@@ -153,14 +153,42 @@
     .nav-link {
         font-size: 0.8rem;
     }
+    .container-lg {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 750px) {
+    /* INTRO */
     .intro-text {
         font-size: 0.85rem;
     }
     .intro-img img {
         width: 250px;
+    }
+
+    /* TITLE */
+    .title {
+        font-size: 2.5rem;
+    }
+    .breakfast-intro p {
+        font-size: 0.85rem;
+    }
+
+    /* CARD */
+    .card {
+        width: 15rem !important;
+        height: 20rem !important;
+    }
+    .card-title {
+        font-size: 0.9rem;
+    }
+    .card-text {
+        font-size: 0.75rem;
+    }
+    .card-body .btn {
+        width: 150px;
+        font-size: 0.9rem;
     }
 }
 
@@ -175,17 +203,26 @@
         width: 350px;
         margin-bottom: 1rem;
     }
-    /* .recipes-wrapper {
-        display: block;
-        border: 1px solid red;
 
-    }
+    /* CARD */
     .card {
-        margin-top: 1rem;
-    } */
+        width: 14rem !important;
+        height: 19rem !important;
+    }
+    .card-title {
+        font-size: 0.8rem;
+    }
+    .card-text {
+        font-size: 0.7rem;
+    }
+    .card-body .btn {
+        width: 150px;
+        font-size: 0.9rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
+    /* INTRO */
     .intro-text {
         font-size: 0.75rem;
         padding-left: 0.85rem;
@@ -194,6 +231,8 @@
     .intro-img img {
         width: 250px;
     }
+
+    /* NAV-BAR */
     .navbar-brand {
         margin: 0 3rem 0 2rem;
     }
@@ -204,7 +243,9 @@
     .navbar-collapse {
         margin-right: 2rem;
     }
-    .btn-outline-success {
+
+    /* FORM (SEARCH) */
+    .d-flex .btn-outline-success {
         font-size: 0.85rem;
     }
     .form-control {
@@ -213,5 +254,29 @@
     }
     .form-control::placeholder {
         font-size: 0.85rem;
+    }
+
+    /* TITLE */
+    .title {
+        font-size: 2rem;
+    }
+    .breakfast-intro p {
+        font-size: 0.75rem;
+    }
+
+    /* CARD */
+    .card {
+        width: 12rem !important;
+        height: 19rem !important;
+    }
+    .card-title {
+        font-size: 0.8rem;
+    }
+    .card-text {
+        font-size: 0.7rem;
+    }
+    .card-body .btn {
+        width: 130px;
+        font-size: 0.7rem;
     }
 }
