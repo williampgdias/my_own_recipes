@@ -107,21 +107,24 @@
 .recipes-wrapper {
     display: flex;
     gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
+    overflow-x: scroll;
+    height: 400px;
 }
 
 .card-title {
     font-size: 1.2rem;
 }
+
 .card-text {
     font-size: 0.85rem;
 }
-
 /* Cards Default Ends */
 
 /* Breakfast Starts */
-
+.container-lg {
+    margin: 0 auto;
+    align-items: center;
+}
 /* Breakfast Ends */
 
 /* Lunch Starts */
